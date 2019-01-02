@@ -4,5 +4,3 @@
 class Dispatcher:
     def __init__(self, agents):
         self.agents = agents
-
-        

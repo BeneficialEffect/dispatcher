@@ -1,3 +1,4 @@
-# test
+from dispatcher import agents
 
-print("help me!")
+
+agent = Agent("bob")
