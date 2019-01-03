@@ -1,4 +1,4 @@
 from dispatcher import agents
 
 
-agent = Agent("bob")
+agent = agents.Agent("bob")
