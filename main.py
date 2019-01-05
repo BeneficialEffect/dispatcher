@@ -1,4 +1,3 @@
-from dispatcher import agents
+from dispatcher import
 
-
-agent = agents.Agent("bob")
+dispatcher = dispatcher.Dispatcher()

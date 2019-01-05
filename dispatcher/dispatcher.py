@@ -6,5 +6,3 @@ class Dispatcher:
         # Agents expects a list of agents
         self.agents = agents
 
-
-
