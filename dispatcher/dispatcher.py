@@ -6,5 +6,11 @@ class Dispatcher:
         # Agents expects a list of agents
         self.agents = agents
 
-
-
+    def schedule_call(self, customerid):
+        flag = False
+        for agent in self.agents:
+            if agent.available:
+                agent.begincall(customerid)
+                flag = True
+                break
+        return flag
