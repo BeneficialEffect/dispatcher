@@ -13,4 +13,8 @@ class Dispatcher:
                 agent.begincall(customerid)
                 flag = True
                 break
-        return flag
+
+        if flag:
+            return agent.name
+        else:
+            return flag
